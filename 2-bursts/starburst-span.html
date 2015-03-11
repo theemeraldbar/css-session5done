@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>starburst</title>
+<style>
+.starburst {
+	display:block;
+	width:100px;
+	height:100px;
+	background:#fe0;
+	position:relative;
+	top:20px;
+	left:20px;
+	text-align:center;
+	text-decoration:none;
+	color:#000;
+	line-height:100px;
+	font-size:2em;
+	-webkit-transform:rotate(-45deg);
+	-webkit-transition: -webkit-transform 0.3s ease;
+}
+.starburst span {
+	background:#fe0;
+	width:100px;
+	height:100px;
+	display:block;
+	-webkit-transform:rotate(22.5deg)
+}
+.starburst:hover  {
+	background:#fa0;
+	-webkit-transform:rotate(-22.5deg)
+}
+</style>
+</head>
+
+<body>
+<div class="rect-container">
+<a href="#" class="starburst">
+	<span>
+		<span>
+			<span>Beta!</span>
+       </span>
+    </span>
+</a>
+</div>
+</body>
+</html>
